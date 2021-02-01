@@ -1,0 +1,16 @@
+.pd{
+    margin: 0;
+    padding: 0;
+}
+
+.arrinput{
+    padding-top: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid rgb(155, 153, 153) 1px;
+    width: 570px;
+}
+.gap{
+    margin-top: 50px;
+}
