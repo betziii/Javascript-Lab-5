@@ -34,7 +34,6 @@ const his = document.querySelectorAll('.collection')[3];
 
 
 // Display the BOM Information on the innerHTML of the elements
-
 loc.firstElementChild.firstElementChild.innerHTML = location.href;
 loc.children[1].firstElementChild.innerHTML = location.protocol;
 loc.children[2].firstElementChild.innerHTML = location.host;
