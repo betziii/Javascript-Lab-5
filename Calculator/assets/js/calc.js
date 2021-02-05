@@ -26,6 +26,12 @@ minBtn.addEventListener('click', minimum);
 aveBtn.addEventListener('click', average);
 squareBtn.addEventListener('click', squares);
 sqrtBtn.addEventListener('click', squareroot);
+const reloadIcon = document.querySelector('.fa');
+reloadIcon.addEventListener('click',reloadPage);
+function reloadPage(){
+    location.reload();
+}
+
 function sub(){
     
     let num1 = Number(document.getElementById('fnum').value);
